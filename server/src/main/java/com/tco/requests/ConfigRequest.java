@@ -5,13 +5,13 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RequestConfig extends RequestHeader {
+public class ConfigRequest extends RequestHeader {
 
     private String serverName;
     private List<String> supportedRequests;
-    private final transient Logger log = LoggerFactory.getLogger(RequestConfig.class);
+    private final transient Logger log = LoggerFactory.getLogger(ConfigRequest.class);
 
-    public RequestConfig() {
+    public ConfigRequest() {
         this.requestType = "config";
         this.requestVersion = RequestHeader.CURRENT_SUPPORTED_VERSION;
     }
