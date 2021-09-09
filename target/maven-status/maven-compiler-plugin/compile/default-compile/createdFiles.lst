@@ -1,6 +1,6 @@
 com/tco/requests/RequestConfig.class
 com/tco/server/MicroServer.class
-com/tco/requests/RequestHeader.class
 com/tco/misc/BadRequestException.class
 com/tco/server/WebApplication.class
 com/tco/misc/JSONValidator.class
+com/tco/requests/RequestHeader.class
