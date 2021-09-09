@@ -22,7 +22,7 @@ export default class Page extends Component {
         this.toggleAbout = this.toggleAbout.bind(this);
         this.processServerConfigSuccess = this.processServerConfigSuccess.bind(this);
 
-        sendServerRequest({requestType: "config", requestVersion: 3}, this.state.serverSettings.serverPort)
+        sendServerRequest({requestType: "config", requestVersion: 1}, this.state.serverSettings.serverPort)
             .then(config => {
                 if (config) { this.processConfigResponse(config.data); }
                 else { this.props.createSnackBar("The Request To The Server Failed. Please Try Again Later."); }
