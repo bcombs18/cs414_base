@@ -4,36 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90de60b3-0c95-4f23-93b5-8b62f5c0bca3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/schemas/ResponseConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Margins/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Margins/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Margins/ServerSettings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/entry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/styles/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/styles/header-footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/static/styles/student-styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/restfulAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/templates/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.m2/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/tco/misc/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/tco/misc/JSONValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/tco/requests/RequestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/tco/requests/RequestHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/tco/server/MicroServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/tco/server/WebApplication.java" afterDir="false" />
+    <list default="true" id="90de60b3-0c95-4f23-93b5-8b62f5c0bca3" name="Changes" comment="Add initial codebase">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-server-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-server-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +70,8 @@
     <option name="myCommands">
       <command value="mvn -f --global-settings" />
       <command value="mvn -f --global-settings ./.m2/settings.xml clean package" />
-      <command value="mvn -f ./ --global-settings ./server/.m2/settings.xml clean package" />
       <command value="mvn -f ./ --global-settings server/.m2/settings.xml clean package" />
+      <command value="mvn -f ./ --global-settings ./server/.m2/settings.xml clean package" />
       <command value="mvn -f ./ --global-settings ./.m2/settings.xml clean package" />
     </option>
   </component>
@@ -115,8 +89,16 @@
       <option name="presentableId" value="Default" />
       <updated>1631204812575</updated>
       <workItem from="1631204813826" duration="5016000" />
-      <workItem from="1631211928699" duration="5606000" />
+      <workItem from="1631211928699" duration="6756000" />
     </task>
+    <task id="LOCAL-00001" summary="Add initial codebase">
+      <created>1631218287834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631218287834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial codebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial codebase" />
   </component>
 </project>
