@@ -3,7 +3,7 @@ package com.tco.server;
 import com.tco.misc.BadRequestException;
 import com.tco.misc.JSONValidator;
 import com.tco.requests.RequestHeader;
-import com.tco.requests.RequestConfig;
+import com.tco.requests.ConfigRequest;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
@@ -35,7 +35,7 @@ class MicroServer {
     private void processRestfulAPIrequests() {
         path("/api", () -> {
             before("/*", (req, res) -> logRequest(req));
-            post("/config", (req, res) -> processHttpRequest(req, res, RequestConfig.class));
+            post("/config", (req, res) -> processHttpRequest(req, res, ConfigRequest.class));
         });
     }
 
