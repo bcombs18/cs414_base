@@ -3,7 +3,7 @@ import { Label, Button, Col, Input, Modal, ModalBody, ModalFooter, ModalHeader, 
 
 import { sendServerRequest, isJsonResponseValid } from "../../utils/restfulAPI";
 
-import * as configSchema from "../../../schemas/ResponseConfig";
+import * as configSchema from "../../../schemas/ConfigResponse";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import List from "@material-ui/core/List";
