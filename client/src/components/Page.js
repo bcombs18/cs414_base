@@ -6,7 +6,7 @@ import Header from "./Margins/Header";
 import Footer from "./Margins/Footer";
 
 import { LOG } from "../utils/constants";
-import * as configSchema from "../../schemas/ResponseConfig";
+import * as configSchema from "../../schemas/ConfigResponse";
 import { getOriginalServerPort, isJsonResponseValid, sendServerRequest } from "../utils/restfulAPI";
 
 export default class Page extends Component {
