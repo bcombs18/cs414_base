@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest --forceExit",
+    "test": "jest --passWithNoTests --forceExit",
     "postman": "newman run ../server/src/test/postman/314-api-tests.postman_collection.json",
     "devClient": "webpack-dev-server -d --env.CLIENT_PORT=3000 --env.SERVER_PORT=8000",
     "prodClient": "webpack -p",
